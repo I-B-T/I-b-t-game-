@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IBT Racing Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="hud">
+  <div id="score">Score: 0</div>
+  <div id="coins">Coins: 0</div>
+  <div id="high">High: 0</div>
+</div>
+
+<div id="gameArea">
+  <img id="player" src="car.png">
+
+  <img id="enemy" src="enemy.png">
+
+  <img id="coin" src="coin.png">
+</div>
+
+<div class="controls">
+  <button onclick="moveLeft()">⬅️</button>
+  <button onclick="moveRight()">➡️</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
